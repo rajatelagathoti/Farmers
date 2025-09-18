@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+input, button {
+  margin: 10px 0;
+  padding: 8px;
+  width: 90%;
+  max-width: 300px;
+}
+div {
+  margin: 10px 0;
+}
+@media only screen and (max-width: 600px) {
+  body { padding: 10px; }
+  input, button { width: 100%; }
+}
